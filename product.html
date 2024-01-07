@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <title>Product</title>
+</head>
+<body>
+    <nav class=" navbar navbar-expand-lg navbar-light bg-light poslative top-0 start-0 w-100">
+        <div class="container">
+            <a class="navbar-brand d-lg-none" href="index.html">SUPER-CARS</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse p-2 flex-column" id="navbarContent">
+                <div class="d-flex justify-content-center">
+                    <a class="navbar-brand d-none d-lg-block" href="index.html">
+                        <img class="logo" src="images/logo ex/Black_Flat_Graphic_Car_Washing_Service_Logo.png">
+                    </a>
+                </div>
+                <div class="d-block w-100">
+                    <ul class="navbar-nav d-flex justify-content-center align-items-center pt-3">
+                        <li class="nav-item mx-2">
+                            <a class="nav-link " href="index.html">
+                                Home
+                            </a>
+                        </li>
+                        <li class="nav-item mx-2">
+                            <a class="nav-link active" href="product.html">
+                                Product
+                            </a>
+                        </li>
+                        <li class="nav-item mx-2">
+                            <a class="nav-link" href="about us.html">
+                                About 
+                            </a>
+                        </li><li class="nav-item mx-2">
+                            <a class="nav-link" href="contact us.html">
+                                Contact 
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="row py-5 g-5">
+        <div class="col-12 col-lg-6">
+               <img src="images/menu1/ba935ed495_1280.jpg" class=";-1 w-100 sliderMainImage" data-bs-toggle="modal" data-bs-target="#imageModal"/>
+           <div>
+               <img src="images/menu1/92OGkayJ.d0lrMr2Q7-(edit).jpg" width="60" class="m-1 sliderThumb"/>
+               <img src="images/menu1/92OGkayJ.YGsSZjCnf-(edit).jpg" width="60" class="m-1 sliderThumb"/>
+            </div>
+       </div>
+       <div class="col-12 col-lg-6">
+        <h2 id="ProductName">Mercedes E63s AMG</h2>
+        <small class="text-muted">
+            Type: W213
+        </small>
+        <h4 class="my-4">
+            from USD
+        
+        <span id="price">105.999</span>
+        $
+        </h4>
+        <label for="selectModel" class="text-muted">
+            model
+        </label>
+        <select class="form-select" name="selectModel" id="model">
+            <option>First Edition</option>
+            <option>Black series</option>
+            <option>Luxury line</option>
+            <option selected>Busniess Line</option>
+        </select>
+        <div class="d-grid my-4">
+            <button class="btn btn-lg btn-danger" type="button" id="purschaseBtn">
+                Purschase Now
+            </button>
+        </div>
+        <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  Description
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    Pinnacle luxury, snarling boosted V8 acceleration, dynamite driving dynamics.
+                    You've got to pay to play, they aren't making any more of these after 2023.
+                    The AMG E63 S is a dual-nature machine, offering both ballistic performance and luxury accommodations.
+                </div>
+              </div>
+            </div>
+        </div>
+       </div>
+    </div>
+   
+    <div class="container footer">
+        <fouter class="d-flex justify-content-between my-5 text-start flex-wrap">
+            <ul class="nav flex-column">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link text-muted">
+                        <img src="images/logo ex/Black_Flat_Graphic_Car_Washing_Service_Logo.png" height="100">
+                    </a>
+                </li>
+                <li class="fw-bold nav-item">
+                    <p class="text-dark mt-1">
+                        copyright SUPER-CARS , designed by zakaria and adil
+                    </p>
+                </li>
+            </ul>
+            <ul class="nav flex-column">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link text-dark">
+                    pages
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link text-dark">
+                        Home
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link text-dark">
+                        Product
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link text-dark">
+                        About us
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link text-dark">
+                        contact us
+                    </a>
+                </li>
+            </ul>
+        </fouter>
+    </div>
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
